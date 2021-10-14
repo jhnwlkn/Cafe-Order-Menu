@@ -11,7 +11,6 @@ int main(){
 	string a[5]={"1.aaa\tRp. 10.000", "2.bbb\tRp. 10.000", "3.ccc\tRp. 10.000", "4.ddd\tRp. 10.000", "5.eee\tRp. 10.000"};
 	string b[5]={"1.aaa\tRp. 10.000", "2.bbb\tRp. 10.000", "3.ccc\tRp. 10.000", "4.ddd\tRp. 10.000", "5.eee\tRp. 10.000"};
 	int c[5];
-	int d[5];
 	
 	menu:
 		cout << "\tSelamat Datang di Alm Markfood" << endl;
