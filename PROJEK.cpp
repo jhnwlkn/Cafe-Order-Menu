@@ -175,7 +175,7 @@ int minuman(int p){
 }
 
 int main(){
-	int x,y,r,p;
+	int x,y,p;
 	char z;
 	int jml, pri, tot, byr, kbl;
 	string a[5]={"1.Aussie Burger\t\t\tRp. 75.000", "2.Fish n' Chips\t\t\tRp. 85.000", "3.Curry dogs\t\t\tRp. 50.000", "4.Chicken Wings (6pcs)\t\tRp. 35.000", "5.Sirloin steak\t\t\tRp. 135.000"};
@@ -213,15 +213,15 @@ int main(){
 				cout << b[i] << endl;
 			}
 			cout << "Mau memesan minuman? (Y/N)\n";
-			cin >>r;
+			cin >>z;
 			
-			if (r=='Y' || r=='y'){
+			if (z=='Y' || z=='y'){
 				cout << "\n(masukan angka dalam menu (cth : aaa maka ketik '1')\n";
 				cout << "Silahkan masukan pesanan anda \t:  ";
 				cin >> p;
 				minuman (p);
 				
-			} else if( r =='N' || r=='n'){
+			} else if( z =='N' || z=='n'){
 				system("CLS");
 				cout<<"Terimakasih sudah mengunjungi Alm Markfood!";
 			}
