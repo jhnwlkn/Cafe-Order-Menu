@@ -64,7 +64,8 @@ void printMenu(int menu) {
 				cout << "Terimakasih sudah mengunjungi Wr Ilkom!";
 				exit(0);
 			} else if (pilihan == 'N' || pilihan == 'n'){
-			}
+		} else {
+			cout << "\nPilihan tidak tersedia!"<< endl;
 		}
 	}
 }
