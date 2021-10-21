@@ -67,6 +67,7 @@ void printMenu(int menu) {
 			}
 		}
 	} else if (pilihan == 'N' || pilihan == 'n'){
+		j:
 		cout << "Apakah anda yakin tidak ingin memesan? (y/n) : ";
 		cin >> pilihan;
 			
@@ -74,7 +75,11 @@ void printMenu(int menu) {
 			system("cls");
 			cout << "Terimakasih sudah mengunjungi Wr Ilkom!";
 			exit(0);
-		} 
+		} else if (pilihan == 'Y' || pilihan == 'y'){
+		} else {
+			cout << "\nPilihan tidak tersedia!"<< endl;
+			goto j;
+		}
 	} else {
 		cout << "\nPilihan tidak tersedia!"<< endl;
 	}
